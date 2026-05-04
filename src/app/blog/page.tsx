@@ -1,6 +1,6 @@
 export const dynamic = "force-dynamic";
 import Link from 'next/link';
-import { createClient } from '@/lib/supabase';
+import { createClient } from '../../lib/supabase';
 
 export const metadata = { title: 'Blog de Tecnología para el Hogar' };
 

@@ -1,4 +1,4 @@
-import { createClient } from '@/lib/supabase';
+import { createClient } from '../../../lib/supabase';
 import { Metadata } from 'next';
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {

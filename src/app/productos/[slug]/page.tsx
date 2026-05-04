@@ -1,4 +1,4 @@
-import { createClient } from '@/lib/supabase';
+import { createClient } from '../../../lib/supabase';
 import { notFound } from 'next/navigation';
 
 export default async function ProductPage({ params }: { params: { slug: string } }) {

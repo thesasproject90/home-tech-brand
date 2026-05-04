@@ -1,6 +1,6 @@
 export const dynamic = "force-dynamic";
-import { createClient } from '@/lib/supabase';
-import ProductCard from '@/components/ProductCard';
+import { createClient } from '../../lib/supabase';
+import ProductCard from '../../components/ProductCard';
 
 export const metadata = { title: 'Catálogo de Tecnología' };
 

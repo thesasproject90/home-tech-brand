@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { createClient } from '@/lib/supabase'
+import { createClient } from '../lib/supabase'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const supabase = createClient()
